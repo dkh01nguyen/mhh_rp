@@ -1,0 +1,47 @@
+\section{Background Theory}
+\subsection{Petri Net}
+According to \cite{murata1989},  a Petri net is defined as a tuple $N = (P, T, F, M_0)$, where $P$ is a finite set of places, $T$ is a finite set of transitions, and $F$ represents the flow relation, 
+allowing us to visualize the causal dependencies between events. The state of a Petri net is defined by its \textbf{marking} $M$, 
+which is a vector of non-negative integers of size $|P|$. The dynamic behavior is governed by the firing rule: a transition $t$ is enabled if $M(p) \ge 1$ for 
+all input places $p \in t$. When $t$ fires, the new marking $M'$ is given by the state equation:
+\begin{equation*}
+    M' = M + C \cdot u
+\end{equation*}
+where $C$ is the incidence matrix and $u$ is the firing vector.
+
+This assignment specifically focuses on \textbf{1-safe Petri nets}. A net is 1-safe if for every reachable marking $M \in Reach(M_0)$, and for every place $p \in P$, the number of tokens is at most 1:
+\begin{equation*}
+    \forall M \in Reach(M_0), \forall p \in P: M(p) \in \{0, 1\}
+\end{equation*}
+This property allows the global state to be encoded as a Boolean vector, facilitating the use of symbolic logic.
+
+\subsection{Binary Decision Diagrams}
+Binary Decision Diagrams (BDDs) are a canonical directed acyclic graph (DAG) 
+data structure used to represent Boolean functions \cite{bryant1986}. A Boolean 
+function $f: \{0, 1\}^n \to \{0, 1\}$ is represented as a rooted graph where non-terminal 
+nodes are labeled with variables $x_i$ and terminal nodes represent values 0 (False) and 1 (True).
+
+The power of BDDs lies in their \textbf{canonical form} (Reduced Ordered BDD - ROBDD). For a fixed variable 
+ordering, any Boolean function has a unique BDD representation. This allows for constant-time equivalence 
+checking and efficient logical operations with complexity proportional to the graph size rather than the 
+exponential state space.
+
+In the context of this assignment, we utilize BDDs to solve the state space explosion problem inherent in concurrent systems.
+
+\paragraph{State Encoding:}
+Since the Petri net is \textbf{1-safe} \cite{cheng1995}, the number of tokens in any place $p_i$ is strictly bounded to $\{0, 1\}$. Thus, a global marking $M$ can be encoded as a Boolean vector $(x_1, x_2, \dots, x_{|P|})$, where $x_i = 1$ if and only if place $p_i$ contains a token. The set of all reachable markings is represented by a characteristic function $\chi_{Reach}$.
+
+\paragraph{Transition Relation:}
+Instead of firing transitions individually, we encode the entire net's behavior into a single Boolean function called the \textbf{Transition Relation} $TR(x, x')$. For a transition $t$, the relation $TR_t$ is defined as:
+\begin{equation*}
+    TR_t(x, x') = \left( \bigwedge_{p \in \bullet t} x_p \right) \land \left( \bigwedge_{q \in t \bullet} x'_q \right) \land \left( \bigwedge_{r \notin \bullet t \cup t \bullet} (x'_r \leftrightarrow x_r) \right)
+\end{equation*}
+The global transition relation is the disjunction of all individual transition relations: $TR(x, x') = \bigvee_{t \in T} TR_t(x, x')$.
+
+\paragraph{Image Computation:}
+We compute the reachability set iteratively using symbolic image computation. The set of next states $S_{new}$ reachable from current states $S_{curr}$ is computed via existential quantification:
+\begin{equation*}
+    S_{new}(x') = \exists x . [ S_{curr}(x) \land TR(x, x') ]
+\end{equation*}
+This process repeats until a fixed point is reached ($S_{new} \subseteq S_{accumulated}$).
+
