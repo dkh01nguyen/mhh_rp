@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.24)  27 NOV 2025 22:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.24)  27 NOV 2025 23:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1286,308 +1286,71 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count441
 \@lastruleclass=\count442
 \@thisrulewidth=\dimen385
-) (C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.sty
-Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
- (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/logreq\logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count443
- (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/logreq\logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-\c@tabx@nest=\count444
-\c@listtotal=\count445
-\c@listcount=\count446
-\c@liststart=\count447
-\c@liststop=\count448
-\c@citecount=\count449
-\c@citetotal=\count450
-\c@multicitecount=\count451
-\c@multicitetotal=\count452
-\c@instcount=\count453
-\c@maxnames=\count454
-\c@minnames=\count455
-\c@maxitems=\count456
-\c@minitems=\count457
-\c@citecounter=\count458
-\c@maxcitecounter=\count459
-\c@savedcitecounter=\count460
-\c@uniquelist=\count461
-\c@uniquename=\count462
-\c@refsection=\count463
-\c@refsegment=\count464
-\c@maxextratitle=\count465
-\c@maxextratitleyear=\count466
-\c@maxextraname=\count467
-\c@maxextradate=\count468
-\c@maxextraalpha=\count469
-\c@abbrvpenalty=\count470
-\c@highnamepenalty=\count471
-\c@lownamepenalty=\count472
-\c@maxparens=\count473
-\c@parenlevel=\count474
-\blx@tempcnta=\count475
-\blx@tempcntb=\count476
-\blx@tempcntc=\count477
-\c@blx@maxsection=\count478
-\blx@maxsegment@0=\count479
-\blx@notetype=\count480
-\blx@parenlevel@text=\count481
-\blx@parenlevel@foot=\count482
-\blx@sectionciteorder@0=\count483
-\blx@sectionciteorderinternal@0=\count484
-\blx@entrysetcounter=\count485
-\blx@biblioinstance=\count486
-\labelnumberwidth=\skip191
-\labelalphawidth=\skip192
-\biblabelsep=\skip193
+) (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/apacite\apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count443
+\bibleftmargin=\skip191
+\bibindent=\skip192
+\bibparsep=\skip193
 \bibitemsep=\skip194
-\bibnamesep=\skip195
-\bibinitsep=\skip196
-\bibparsep=\skip197
-\bibhang=\skip198
-\blx@bcfin=\read4
-\blx@bcfout=\write5
-\blx@langwohyphens=\language79
-\c@mincomprange=\count487
-\c@maxcomprange=\count488
-\c@mincompwidth=\count489
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
- (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-dm.def
-File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'apa.dbx' found.
- (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/biblatex-apa\apa.dbx
-File: apa.dbx 2025/08/27 v9.20 APA biblatex style data model
-)
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count490
-\c@savedafterword=\count491
-\c@annotator=\count492
-\c@savedannotator=\count493
-\c@author=\count494
-\c@savedauthor=\count495
-\c@bookauthor=\count496
-\c@savedbookauthor=\count497
-\c@commentator=\count498
-\c@savedcommentator=\count499
-\c@editor=\count500
-\c@savededitor=\count501
-\c@editora=\count502
-\c@savededitora=\count503
-\c@editorb=\count504
-\c@savededitorb=\count505
-\c@editorc=\count506
-\c@savededitorc=\count507
-\c@foreword=\count508
-\c@savedforeword=\count509
-\c@holder=\count510
-\c@savedholder=\count511
-\c@introduction=\count512
-\c@savedintroduction=\count513
-\c@namea=\count514
-\c@savednamea=\count515
-\c@nameb=\count516
-\c@savednameb=\count517
-\c@namec=\count518
-\c@savednamec=\count519
-\c@translator=\count520
-\c@savedtranslator=\count521
-\c@shortauthor=\count522
-\c@savedshortauthor=\count523
-\c@shorteditor=\count524
-\c@savedshorteditor=\count525
-\c@narrator=\count526
-\c@savednarrator=\count527
-\c@execproducer=\count528
-\c@savedexecproducer=\count529
-\c@execdirector=\count530
-\c@savedexecdirector=\count531
-\c@with=\count532
-\c@savedwith=\count533
-\c@labelname=\count534
-\c@savedlabelname=\count535
-\c@institution=\count536
-\c@savedinstitution=\count537
-\c@lista=\count538
-\c@savedlista=\count539
-\c@listb=\count540
-\c@savedlistb=\count541
-\c@listc=\count542
-\c@savedlistc=\count543
-\c@listd=\count544
-\c@savedlistd=\count545
-\c@liste=\count546
-\c@savedliste=\count547
-\c@listf=\count548
-\c@savedlistf=\count549
-\c@location=\count550
-\c@savedlocation=\count551
-\c@organization=\count552
-\c@savedorganization=\count553
-\c@origlocation=\count554
-\c@savedoriglocation=\count555
-\c@origpublisher=\count556
-\c@savedorigpublisher=\count557
-\c@publisher=\count558
-\c@savedpublisher=\count559
-\c@language=\count560
-\c@savedlanguage=\count561
-\c@origlanguage=\count562
-\c@savedoriglanguage=\count563
-\c@citation=\count564
-\c@savedcitation=\count565
-\c@pageref=\count566
-\c@savedpageref=\count567
-\shorthandwidth=\skip199
-\shortjournalwidth=\skip256
-\shortserieswidth=\skip257
-\shorttitlewidth=\skip258
-\shortauthorwidth=\skip259
-\shorteditorwidth=\skip260
-\locallabelnumberwidth=\skip261
-\locallabelalphawidth=\skip262
-\localshorthandwidth=\skip263
-\localshortjournalwidth=\skip264
-\localshortserieswidth=\skip265
-\localshorttitlewidth=\skip266
-\localshortauthorwidth=\skip267
-\localshorteditorwidth=\skip268
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
- (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-compat.def
-File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.def
-File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count568
-\c@textcitetotal=\count569
-\c@textcitemaxnames=\count570
-\c@biburlbigbreakpenalty=\count571
-\c@biburlbreakpenalty=\count572
-\c@biburlnumpenalty=\count573
-\c@biburlucpenalty=\count574
-\c@biburllcpenalty=\count575
-\biburlbigskip=\muskip19
-\biburlnumskip=\muskip20
-\biburlucskip=\muskip21
-\biburllcskip=\muskip22
-\c@smartand=\count576
-)
-Package biblatex Info: Trying to load bibliography style 'apa'...
-Package biblatex Info: ... file 'apa.bbx' found.
- (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/biblatex-apa\apa.bbx
-File: apa.bbx 2025/08/27 v9.20 APA biblatex references style
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
- (C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
-File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count577
-\c@bbx:relatedtotal=\count578
-)
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting.
-Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already defined, overwriting.
-Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already defined, overwriting.
-)
-Package biblatex Info: Trying to load citation style 'apa'...
-Package biblatex Info: ... file 'apa.cbx' found.
- (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/biblatex-apa\apa.cbx
-File: apa.cbx 2025/08/27 v9.20 APA biblatex citation style
-Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
-Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined, overwriting.
-Package biblatex Info: Redefining '\fullcite'.
-Package biblatex Info: Redefining '\citeauthor'.
-Package biblatex Info: Redefining '\citeyear'.
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcites'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\footcitetexts'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\smartcites'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
- (C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.cfg
-File: biblatex.cfg 
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Document encoding is UTF8 ....
-Package biblatex Info: ... and expl3
-(biblatex)             2025-09-02 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
- (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
-Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
-)) (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+\biblabelsep=\skip195
+) (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 ) (C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 ) (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/anyfontsize\anyfontsize.sty
 Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
 )
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 106.
-\@quotelevel=\count579
-\@quotereset=\count580
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 105.
  (main.aux (content/coverpage.aux) (content/members.aux) (content/introduction.aux) (content/theory.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 106.
-Package gensymb Info: Math companion symbols declared on input line 106.
-LaTeX Info: Redefining \degree on input line 106.
-LaTeX Info: Redefining \celsius on input line 106.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 106.
-LaTeX Info: Redefining \ohm on input line 106.
-Package gensymb Info: Using \textohm for \ohm on input line 106.
-Package gensymb Info: Using \textmu for \micro on input line 106.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 105.
+Package gensymb Info: Math companion symbols declared on input line 105.
+LaTeX Info: Redefining \degree on input line 105.
+LaTeX Info: Redefining \celsius on input line 105.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 105.
+LaTeX Info: Redefining \ohm on input line 105.
+Package gensymb Info: Using \textohm for \ohm on input line 105.
+Package gensymb Info: Using \textmu for \micro on input line 105.
  (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 106.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 105.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count581
+\scratchcounter=\count444
 \scratchdimen=\dimen386
 \scratchbox=\box154
-\nofMPsegments=\count582
-\nofMParguments=\count583
+\nofMPsegments=\count445
+\nofMParguments=\count446
 \everyMPshowfont=\toks64
-\MPscratchCnt=\count584
+\MPscratchCnt=\count447
 \MPscratchDim=\dimen387
-\MPnumerator=\count585
-\makeMPintoPDFobject=\count586
+\MPnumerator=\count448
+\makeMPintoPDFobject=\count449
 \everyMPtoPDFconversion=\toks65
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1595,7 +1358,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count587
+\c@lstlisting=\count450
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
@@ -1603,10 +1366,10 @@ Package caption Info: scrextend package is loaded.
 \caption@addmargin@hsize=\dimen388
 \caption@addmargin@linewidth=\dimen389
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 106.
+Package hyperref Info: Link coloring ON on input line 105.
  (main.out) (main.out)
-\@outlinefile=\write6
-\openout6 = `main.out'.
+\@outlinefile=\write5
+\openout5 = `main.out'.
 
 
 *geometry* driver: auto-detecting
@@ -1643,42 +1406,16 @@ Package hyperref Info: Link coloring ON on input line 106.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
-Package biblatex Info: ... file 'english-apa.lbx' found.
-(C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/biblatex-apa\english-apa.lbx
-File: english-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
- (C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx
-File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+\c@maskedRefs=\count451
+(C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/apacite\english.apc
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
 )
-Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
-Package biblatex Info: ... file 'american-apa.lbx' found.
- (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/biblatex-apa\american-apa.lbx
-File: american-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
-Package biblatex Info: Trying to load language 'american'...
-Package biblatex Info: ... file 'american.lbx' found.
- (C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\american.lbx
-File: american.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
- (C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx
-File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
-))))
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `main.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl)
-Package biblatex Info: Reference section=0 on input line 106.
-Package biblatex Info: Reference segment=0 on input line 106.
 \openout2 = `content/coverpage.aux'.
 
  (content/coverpage.tex
-<picture/logobk.png, id=38, 845.0772pt x 597.6729pt>
+<picture/logobk.png, id=49, 845.0772pt x 597.6729pt>
 File: picture/logobk.png Graphic file (type png)
 <use picture/logobk.png>
 Package pdftex.def Info: picture/logobk.png  used on input line 27.
@@ -1719,26 +1456,26 @@ l.21 \end{titlepage}
 ]) (main.toc
 LaTeX Font Info:    Calculating math sizes for size <13> on input line 2.
 )
-\tf@toc=\write7
-\openout7 = `main.toc'.
+\tf@toc=\write6
+\openout6 = `main.toc'.
 
 
 
 File: picture/logobk.png Graphic file (type png)
 <use picture/logobk.png>
-Package pdftex.def Info: picture/logobk.png  used on input line 113.
+Package pdftex.def Info: picture/logobk.png  used on input line 112.
 (pdftex.def)             Requested size: 24.74516pt x 24.75098pt.
-LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 113.
+LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 112.
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T5/cmtt/bx/n' in size <13> not available
-(Font)              Font shape `T5/cmtt/m/n' tried instead on input line 113.
+(Font)              Font shape `T5/cmtt/m/n' tried instead on input line 112.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.113 \include{content/introduction}
+l.112 \include{content/introduction}
                                      [1
 
 
@@ -1757,7 +1494,7 @@ Package pdftex.def Info: picture/logobk.png  used on input line 33.
 
 File: picture/logobk.png Graphic file (type png)
 <use picture/logobk.png>
-Package pdftex.def Info: picture/logobk.png  used on input line 113.
+Package pdftex.def Info: picture/logobk.png  used on input line 112.
 (pdftex.def)             Requested size: 24.74516pt x 24.75098pt.
 [3]
 \openout2 = `content/theory.aux'.
@@ -1776,9 +1513,9 @@ Package pdftex.def Info: picture/logobk.png  used on input line 33.
 
 File: picture/logobk.png Graphic file (type png)
 <use picture/logobk.png>
-Package pdftex.def Info: picture/logobk.png  used on input line 114.
+Package pdftex.def Info: picture/logobk.png  used on input line 113.
 (pdftex.def)             Requested size: 24.74516pt x 24.75098pt.
-[5]
+[5] (main.bbl)
 
 File: picture/logobk.png Graphic file (type png)
 <use picture/logobk.png>
@@ -1788,7 +1525,7 @@ Package pdftex.def Info: picture/logobk.png  used on input line 117.
 
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20251127224442 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
+runsystem(latexminted cleantemp  --timestamp 20251127230422 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
 
  
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -1798,23 +1535,20 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9D97C0E8299AF48B974ADCDABB0C0578;1211.
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
-
+(rerunfilecheck)             Checksum: CB05581D4077A898B64CB7451DFE89DD;1794.
  ) 
 Here is how much of TeX's memory you used:
- 48496 strings out of 468130
- 997524 string characters out of 5440703
- 2149190 words of memory out of 5000000
- 76330 multiletter control sequences out of 15000+600000
- 656550 words of font info for 103 fonts, out of 8000000 for 9000
+ 41023 strings out of 468130
+ 842548 string characters out of 5440703
+ 1633089 words of memory out of 5000000
+ 68901 multiletter control sequences out of 15000+600000
+ 658497 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,24n,117p,1221b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi650\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnr8.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on main.pdf (8 pages, 240556 bytes).
+ 108i,24n,117p,565b,1110s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi650\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnr8.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb>
+Output written on main.pdf (8 pages, 248962 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 82 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 211 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

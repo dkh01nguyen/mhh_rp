@@ -1,19 +1,66 @@
-[0] Config.pm:328> INFO - This is Biber 2.21
-[0] Config.pm:331> INFO - Logfile is 'main.blg'
-[233] biber-MSWIN64:342> INFO - === 
-[410] Biber.pm:421> INFO - Reading 'main.bcf'
-[518] Biber.pm:1002> INFO - Found 3 citekeys in bib section 0
-[532] Biber.pm:4487> INFO - Processing section 0
-[576] Biber.pm:4678> INFO - Looking for bibtex file 'content/references.bib' for section 0
-[667] bibtex.pm:1713> INFO - LaTeX decoding ...
-[713] bibtex.pm:1519> INFO - Found BibTeX data source 'content/references.bib'
-[800] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[800] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[800] Biber.pm:4307> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[800] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[808] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[808] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[808] Biber.pm:4307> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[808] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[811] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[814] bbl.pm:779> INFO - Output to main.bbl
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: content/coverpage.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+A level-1 auxiliary file: content/members.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+A level-1 auxiliary file: content/introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: content/theory.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apacite.bst
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: content/references.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 4 entries,
+            6951 wiz_defined-function locations,
+            1305 strings with 11255 characters,
+and the built_in function-call counts, 6474 in all, are:
+= -- 794
+> -- 49
+< -- 283
++ -- 279
+- -- 8
+* -- 412
+:= -- 1189
+add.period$ -- 16
+call.type$ -- 4
+change.case$ -- 68
+chr.to.int$ -- 0
+cite$ -- 8
+duplicate$ -- 156
+empty$ -- 281
+format.name$ -- 74
+if$ -- 1249
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 0
+newline$ -- 95
+num.names$ -- 32
+pop$ -- 90
+preamble$ -- 1
+purify$ -- 16
+quote$ -- 0
+skip$ -- 476
+stack$ -- 0
+substring$ -- 304
+swap$ -- 113
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 320
+warning$ -- 0
+while$ -- 27
+width$ -- 0
+write$ -- 109

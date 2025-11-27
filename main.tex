@@ -58,8 +58,7 @@
 \usepackage{framed}
 \usepackage{enumitem}
 \usepackage{booktabs}
-\usepackage[backend=biber, style=apa]{biblatex}
-\addbibresource{content/references.bib}
+\usepackage{apacite}
 % Cấu hình cho listings
 \lstset{
     language=C,
@@ -113,5 +112,6 @@
 \include{content/introduction}
 \include{content/theory}
 
-\printbibliography
+\bibliographystyle{apacite}
+\bibliography{content/references}
 \end{document}

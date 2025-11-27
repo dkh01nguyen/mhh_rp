@@ -400,39 +400,8 @@ INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\framed\framed.sty
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\framed\framed.sty
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\booktabs\booktabs.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.sty
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.sty
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.sty
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.def
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.def
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.def
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-dm.def
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-dm.def
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-dm.def
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\apa.dbx
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\apa.dbx
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\apa.dbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-compat.def
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-compat.def
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-compat.def
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.def
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\apa.bbx
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\apa.bbx
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\apa.bbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\apa.cbx
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\apa.cbx
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\apa.cbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
+INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\apacite\apacite.sty
+INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\apacite\apacite.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
@@ -476,27 +445,9 @@ OUTPUT main.pdf
 INPUT .\main.out
 INPUT .\main.out
 OUTPUT main.out
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\english-apa.lbx
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\english-apa.lbx
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\english-apa.lbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\american-apa.lbx
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\american-apa.lbx
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\biblatex-apa\american-apa.lbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\american.lbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\american.lbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\american.lbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-OUTPUT main.bcf
-INPUT main.bbl
-INPUT .\main.bbl
-INPUT .\main.bbl
-INPUT .\main.bbl
-INPUT main.bbl
+INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\apacite\english.apc
+INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\apacite\english.apc
+INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\apacite\english.apc
 INPUT .\content\coverpage.tex
 INPUT .\content\coverpage.tex
 OUTPUT content\coverpage.aux
@@ -619,10 +570,15 @@ INPUT .\picture\logobk.png
 INPUT .\picture\logobk.png
 INPUT .\picture\logobk.png
 INPUT .\picture\logobk.png
+INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnr9.tfm
+INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnr7.tfm
 INPUT .\picture\logobk.png
 INPUT .\picture\logobk.png
 INPUT .\picture\logobk.png
 INPUT .\picture\logobk.png
+INPUT .\main.bbl
+INPUT .\main.bbl
+INPUT main.bbl
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnti12.tfm
 INPUT .\picture\logobk.png
 INPUT .\picture\logobk.png
@@ -643,8 +599,6 @@ INPUT .\content\theory.aux
 INPUT content\theory.aux
 INPUT .\main.out
 INPUT .\main.out
-INPUT main.run.xml
-OUTPUT main.run.xml
 INPUT C:\Users\User\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi650\tcrm1200.pk
 INPUT C:\Users\User\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi650\tcrm1200.pk
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
@@ -661,6 +615,8 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\type1\vntex\vnr\vnbx12.pfb
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\type1\vntex\vnr\vnbx12.pfb
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\type1\vntex\vnr\vnbxti10.pfb

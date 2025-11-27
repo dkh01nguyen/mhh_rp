@@ -9,3 +9,6 @@
 \contentsline {paragraph}{State Encoding:}{5}{paragraph*.2}%
 \contentsline {paragraph}{Transition Relation:}{5}{paragraph*.3}%
 \contentsline {paragraph}{Image Computation:}{5}{paragraph*.4}%
+\contentsline {subsection}{\numberline {2.3}Integer Linear Programming}{5}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Application: Deadlock Detection (Task 4)}{5}{subsubsection.2.3.1}%
+\contentsline {section}{References}{6}{subsubsection.2.3.1}%
