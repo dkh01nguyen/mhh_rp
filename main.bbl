@@ -52,30 +52,6 @@ Cheng, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Graver%
-}{%
-Graver%
-}{%
-{\protect \APACyear {1975}}%
-}]{%
-graver1975}
-\APACinsertmetastar {%
-graver1975}%
-\begin{APACrefauthors}%
-Graver, J\BPBI E.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1975}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {On the foundations of linear and integer linear
-  programming I} {On the foundations of linear and integer linear programming
-  i}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Mathematical Programming}{9}{1}{207--226}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Murata%
 }{%
 Murata%
