@@ -1,0 +1,81 @@
+\section{Python Implementation with Example}
+The team proposes this Petri net as an example for our Python implementation:
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.8]{picture/initpetri.png}
+    \caption{Example of Petri net}
+\end{figure}
+\subsection{Task 1 - Reading Petri nets from PNML files}
+
+The Petri net class is defined in Python as follows:
+\begin{lstlisting}
+class PetriNet:
+    # Identifier for places and transitions
+    self.place_ids = place_ids 
+    self.trans_ids = trans_ids
+    # Labels for places and transititons
+    self.place_names = place_names 
+    self.trans_names = trans_names
+    self.I = I # Input matrix of size T x P
+    self.O = O # Output matrix same size of input matrix
+    self.M0 = M0 # Initial marking
+    # Class method is defined elsewhere in the source code
+\end{lstlisting}
+
+In order to read a Petri net from a \code{.pnml} file, we define a function that can:
+\begin{enumerate}
+    \item \textbf{XML Parsing}: Uses \code{xml.etree.ElementTree} to parse the file. It includes
+    a \code{get\_tag} helper function to ignoring namespaces commonly found in PNML files.
+    \item \textbf{Raw Data Extraction:} Iterates to find:
+        \begin{itemize}
+            \item \code{place}: Extracts ID, Name, and \code{initialMarking} (initial token count).
+            \item \code{transition}: Extracts ID and Name.
+            \item \code{arc:} Extracts source and target to define connections.
+        \end{itemize}
+    then mapping IDs to indices. This is essential for populating the \code{numpy} matrices.
+    \item \textbf{Matrix Construction:} Initializes matrices with zeros. The matrices are designed with dimensions
+     Transitions $\times$ Places ($T \times P$). Then the function iterates through the list of arcs:
+        \begin{itemize}
+            \item If the arc goes from \textbf{Place $\to$ Transition}: Adds to the \textbf{Input Matrix ($I$)}.
+            \item If the arc goes from \textbf{Transition $\to$ Place}: Adds to the \textbf{Output Matrix ($O$)}.
+        \end{itemize}
+\end{enumerate}
+Finally, the function returns an instance of the \code{PetriNet} class with fully processed data.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.7]{picture/petrinet.jpg}
+    \caption{Reading Petri net from \code{.pnml} file}
+\end{figure}
+
+\subsection{Task 2 - Explicit computation of reachable markings}
+The team chooses the BFS to for the task. For convenience, we also implement a DFS function. But since the assignment requires implementing either BFS or DFS only, the
+other approach is not shown here. The result of BFS is shown in Figure \ref{bfs}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.75]{picture/bfs.jpg}
+    \caption{BFS approach result}
+    \label{bfs}
+\end{figure}
+
+\subsection{Task 3 - Symbolic computation of reachable markings by using BDD}
+The process begins by validating the Petri net structure, checking for zero places, and normalizing the dimensions 
+of input/output matrices to handle inconsistencies. The initial marking $M_0$ is then encoded into a boolean formula, 
+where the presence of a token represents a \code{true} state ($X[i]$) and its absence represents \code{false}.
+The core logic involves constructing a global transition relation. For each transition, a \textbf{"guard"} condition is created 
+to verify that input tokens exist and target output places are empty, strictly enforcing the 1-safe constraint. Simultaneously, 
+an \textbf{"effect"} formula defines the next state ($X_p$) by handling token consumption and production, using XNOR operations 
+to maintain the state of unaffected places. All valid transitions are combined into a single relation using the OR operator.
+
+Finally, the algorithm employs \textbf{fixed-point iteration} to compute the full state space. It repeatedly applies the transition 
+relation, smoothes out current state variables, and renames next-state variables until the reachable set converges. The function returns 
+a BDD representing the set of all reachable markings. 
+
+\subsection{Performance Comparison}
+
+\subsection{Task 4 - Deadlock detection by using ILP and BDD}
+
+\subsection{Task 5 - Optimization over reachable markings}
+
+
+
