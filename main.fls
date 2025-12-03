@@ -413,9 +413,9 @@ INPUT main.aux
 INPUT .\content\coverpage.aux
 INPUT .\content\coverpage.aux
 INPUT content\coverpage.aux
-INPUT .\content\members.aux
-INPUT .\content\members.aux
-INPUT content\members.aux
+INPUT .\content\acknow.aux
+INPUT .\content\acknow.aux
+INPUT content\acknow.aux
 INPUT .\content\theory.aux
 INPUT .\content\theory.aux
 INPUT content\theory.aux
@@ -467,15 +467,6 @@ INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnr17.tfm
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnbx12.tfm
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnr17.tfm
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnbx12.tfm
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnti12.tfm
-INPUT C:\Users\User\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT .\content\members.tex
-INPUT .\content\members.tex
-OUTPUT content\members.aux
-INPUT .\content\members.tex
-INPUT .\content\members.tex
-INPUT content\members.tex
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnbx12.tfm
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
@@ -505,11 +496,15 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm0800.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm0600.tfm
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnbx12.tfm
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnr8.tfm
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnti12.tfm
-INPUT .\main.toc
-INPUT .\main.toc
-INPUT main.toc
+INPUT C:\Users\User\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\content\acknow.tex
+INPUT .\content\acknow.tex
+OUTPUT content\acknow.aux
+INPUT .\content\acknow.tex
+INPUT .\content\acknow.tex
+INPUT content\acknow.tex
+INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
@@ -531,9 +526,6 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm0900.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm0600.tfm
-OUTPUT main.toc
-INPUT .\content\theory.tex
-INPUT .\content\theory.tex
 INPUT .\picture\logobk.png
 INPUT .\picture\logobk.png
 INPUT .\picture\logobk.png
@@ -544,20 +536,24 @@ INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\vntex\t5cmtt.fd
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vntt12.tfm
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnr10.tfm
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vntt10.tfm
+INPUT .\main.toc
+INPUT .\main.toc
+INPUT main.toc
+OUTPUT main.toc
+INPUT .\content\theory.tex
+INPUT .\content\theory.tex
+INPUT .\picture\logobk.png
+INPUT .\picture\logobk.png
+INPUT .\picture\logobk.png
+INPUT .\picture\logobk.png
 OUTPUT content\theory.aux
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\vntex\t5cmtt.fd
+INPUT .\picture\logobk.png
 INPUT .\content\theory.tex
 INPUT .\content\theory.tex
 INPUT content\theory.tex
 INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnr9.tfm
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnr7.tfm
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
 INPUT .\picture\logobk.png
 INPUT .\content\implement.tex
 INPUT .\content\implement.tex
@@ -573,15 +569,9 @@ INPUT .\picture\initpetri.png
 INPUT .\picture\initpetri.png
 INPUT .\picture\initpetri.png
 INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vntt12.tfm
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnitt10.tfm
 INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
 INPUT .\picture\petrinet.jpg
 INPUT .\picture\petrinet.jpg
 INPUT .\picture\petrinet.jpg
@@ -597,9 +587,6 @@ INPUT .\picture\bfs.jpg
 INPUT .\picture\bfs.jpg
 INPUT .\picture\bfs.jpg
 INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
 INPUT .\picture\bddres.jpg
 INPUT .\picture\bddres.jpg
 INPUT .\picture\bddres.jpg
@@ -607,9 +594,6 @@ INPUT .\picture\bddres.jpg
 INPUT .\picture\bddres.jpg
 INPUT .\picture\bddres.jpg
 INPUT .\picture\bddres.jpg
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
 INPUT .\picture\logobk.png
 INPUT .\picture\dl.jpg
 INPUT .\picture\dl.jpg
@@ -619,10 +603,6 @@ INPUT .\picture\dl.jpg
 INPUT .\picture\dl.jpg
 INPUT .\picture\dl.jpg
 INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\tfm\vntex\vnr\vnti12.tfm
 INPUT .\picture\ilp.png
 INPUT .\picture\ilp.png
 INPUT .\picture\ilp.png
@@ -638,9 +618,6 @@ INPUT .\picture\benchmark.png
 INPUT .\picture\benchmark.png
 INPUT .\picture\benchmark.png
 INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
 INPUT .\picture\bfs_bdd_comp.jpg
 INPUT .\picture\bfs_bdd_comp.jpg
 INPUT .\picture\bfs_bdd_comp.jpg
@@ -648,15 +625,6 @@ INPUT .\picture\bfs_bdd_comp.jpg
 INPUT .\picture\bfs_bdd_comp.jpg
 INPUT .\picture\bfs_bdd_comp.jpg
 INPUT .\picture\bfs_bdd_comp.jpg
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
 INPUT .\picture\logobk.png
 INPUT .\picture\logobk.png
 INPUT .\picture\logobk.png
@@ -664,16 +632,13 @@ INPUT .\main.bbl
 INPUT .\main.bbl
 INPUT main.bbl
 INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
-INPUT .\picture\logobk.png
 INPUT main.aux
 INPUT .\content\coverpage.aux
 INPUT .\content\coverpage.aux
 INPUT content\coverpage.aux
-INPUT .\content\members.aux
-INPUT .\content\members.aux
-INPUT content\members.aux
+INPUT .\content\acknow.aux
+INPUT .\content\acknow.aux
+INPUT content\acknow.aux
 INPUT .\content\theory.aux
 INPUT .\content\theory.aux
 INPUT content\theory.aux
@@ -708,8 +673,6 @@ INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\type1\vntex\vnr\vnr12.pfb
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\type1\vntex\vnr\vnr12.pfb
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\type1\vntex\vnr\vnr7.pfb
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\type1\vntex\vnr\vnr7.pfb
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\type1\vntex\vnr\vnr8.pfb
-INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\type1\vntex\vnr\vnr8.pfb
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\type1\vntex\vnr\vnti12.pfb
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\type1\vntex\vnr\vnti12.pfb
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\fonts\type1\vntex\vnr\vntt10.pfb

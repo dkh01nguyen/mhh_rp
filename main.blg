@@ -3,8 +3,8 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 Reallocating 'name_of_file' (item size: 1) to 22 items.
 A level-1 auxiliary file: content/coverpage.aux
-Reallocating 'name_of_file' (item size: 1) to 20 items.
-A level-1 auxiliary file: content/members.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: content/acknow.aux
 Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: content/theory.aux
 Reallocating 'name_of_file' (item size: 1) to 22 items.
@@ -25,7 +25,7 @@ Database file #1: content/references.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 You've used 12 entries,
             6951 wiz_defined-function locations,
-            1354 strings with 12423 characters,
+            1354 strings with 12422 characters,
 and the built_in function-call counts, 20511 in all, are:
 = -- 2514
 > -- 144
