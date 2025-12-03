@@ -6,7 +6,9 @@
 \contentsline {subsection}{\numberline {2.1}Task 1 - Reading Petri nets from PNML files}{5}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Task 2 - Explicit computation of reachable markings}{6}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Task 3 - Symbolic computation of reachable markings by using BDD}{7}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Performance Comparison}{8}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Task 4 - Deadlock detection by using ILP and BDD}{8}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Task 5 - Optimization over reachable markings}{8}{subsection.2.6}%
-\contentsline {section}{References}{9}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.4}Task 4 - Deadlock detection by using ILP and BDD}{8}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Task 5 - Optimization over reachable markings}{9}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Performance Comparison}{10}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Challenges}{11}{subsection.2.7}%
+\contentsline {section}{\numberline {3}Conclusion}{11}{section.3}%
+\contentsline {section}{References}{13}{Item.6}%

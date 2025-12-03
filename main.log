@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.24)  2 DEC 2025 00:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.24)  3 DEC 2025 16:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1413,10 +1413,10 @@ LaTeX Info: Redefining \BHBI on input line 130.
 \openout2 = `content/coverpage.aux'.
 
  (content/coverpage.tex
-<picture/logobk.png, id=53, 845.0772pt x 597.6729pt>
+<picture/logobk.png, id=62, 845.0772pt x 597.6729pt>
 File: picture/logobk.png Graphic file (type png)
 <use picture/logobk.png>
-Package pdftex.def Info: picture/logobk.png  used on input line 27.
+Package pdftex.def Info: picture/logobk.png  used on input line 26.
 (pdftex.def)             Requested size: 253.52512pt x 179.30325pt.
 
 
@@ -1498,7 +1498,7 @@ Package pdftex.def Info: picture/logobk.png  used on input line 142.
 \openout2 = `content/implement.aux'.
 
  (content/implement.tex
-<picture/initpetri.png, id=119, 477.785pt x 736.7525pt>
+<picture/initpetri.png, id=130, 477.785pt x 736.7525pt>
 File: picture/initpetri.png Graphic file (type png)
 <use picture/initpetri.png>
 Package pdftex.def Info: picture/initpetri.png  used on input line 5.
@@ -1507,7 +1507,7 @@ Package pdftex.def Info: picture/initpetri.png  used on input line 5.
 
 File: picture/logobk.png Graphic file (type png)
 <use picture/logobk.png>
-Package pdftex.def Info: picture/logobk.png  used on input line 11.
+Package pdftex.def Info: picture/logobk.png  used on input line 10.
 (pdftex.def)             Requested size: 24.74516pt x 24.75098pt.
 [4
 
@@ -1515,53 +1515,106 @@ Package pdftex.def Info: picture/logobk.png  used on input line 11.
 
  <./picture/initpetri.png>]
 LaTeX Font Info:    Font shape `T5/cmtt/bx/n' in size <11.86258> not available
-(Font)              Font shape `T5/cmtt/m/n' tried instead on input line 12.
-<picture/petrinet.jpg, id=126, 599.23875pt x 435.6275pt>
-File: picture/petrinet.jpg Graphic file (type jpg)
-<use picture/petrinet.jpg>
-Package pdftex.def Info: picture/petrinet.jpg  used on input line 47.
-(pdftex.def)             Requested size: 419.46426pt x 304.93716pt.
+(Font)              Font shape `T5/cmtt/m/n' tried instead on input line 18.
 
 
 File: picture/logobk.png Graphic file (type png)
 <use picture/logobk.png>
-Package pdftex.def Info: picture/logobk.png  used on input line 49.
+Package pdftex.def Info: picture/logobk.png  used on input line 45.
 (pdftex.def)             Requested size: 24.74516pt x 24.75098pt.
 [5]
-<picture/bfs.jpg, id=152, 572.1375pt x 336.25626pt>
+<picture/petrinet.jpg, id=160, 599.23875pt x 435.6275pt>
+File: picture/petrinet.jpg Graphic file (type jpg)
+<use picture/petrinet.jpg>
+Package pdftex.def Info: picture/petrinet.jpg  used on input line 53.
+(pdftex.def)             Requested size: 419.46426pt x 304.93716pt.
+<picture/bfs.jpg, id=162, 572.1375pt x 336.25626pt>
 File: picture/bfs.jpg Graphic file (type jpg)
 <use picture/bfs.jpg>
-Package pdftex.def Info: picture/bfs.jpg  used on input line 56.
+Package pdftex.def Info: picture/bfs.jpg  used on input line 62.
 (pdftex.def)             Requested size: 429.10207pt x 252.19157pt.
 
 
 File: picture/logobk.png Graphic file (type png)
 <use picture/logobk.png>
-Package pdftex.def Info: picture/logobk.png  used on input line 60.
+Package pdftex.def Info: picture/logobk.png  used on input line 66.
 (pdftex.def)             Requested size: 24.74516pt x 24.75098pt.
-[6 <./picture/petrinet.jpg>])
+[6 <./picture/petrinet.jpg>]
+<picture/bddres.jpg, id=171, 493.845pt x 263.98625pt>
+File: picture/bddres.jpg Graphic file (type jpg)
+<use picture/bddres.jpg>
+Package pdftex.def Info: picture/bddres.jpg  used on input line 77.
+(pdftex.def)             Requested size: 469.15007pt x 250.7855pt.
+
 
 File: picture/logobk.png Graphic file (type png)
 <use picture/logobk.png>
-Package pdftex.def Info: picture/logobk.png  used on input line 143.
+Package pdftex.def Info: picture/logobk.png  used on input line 80.
 (pdftex.def)             Requested size: 24.74516pt x 24.75098pt.
 [7 <./picture/bfs.jpg>]
+<picture/dl.jpg, id=177, 509.905pt x 125.46875pt>
+File: picture/dl.jpg Graphic file (type jpg)
+<use picture/dl.jpg>
+Package pdftex.def Info: picture/dl.jpg  used on input line 92.
+(pdftex.def)             Requested size: 458.91025pt x 112.9208pt.
+
+
+File: picture/logobk.png Graphic file (type png)
+<use picture/logobk.png>
+Package pdftex.def Info: picture/logobk.png  used on input line 95.
+(pdftex.def)             Requested size: 24.74516pt x 24.75098pt.
+[8 <./picture/bddres.jpg>]
+<picture/ilp.png, id=184, 477.785pt x 286.06876pt>
+File: picture/ilp.png Graphic file (type png)
+<use picture/ilp.png>
+Package pdftex.def Info: picture/ilp.png  used on input line 108.
+(pdftex.def)             Requested size: 358.33786pt x 214.55104pt.
+<picture/benchmark.png, id=185, 469.755pt x 129.1224pt>
+File: picture/benchmark.png Graphic file (type png)
+<use picture/benchmark.png>
+Package pdftex.def Info: picture/benchmark.png  used on input line 114.
+(pdftex.def)             Requested size: 469.75386pt x 129.12209pt.
+
+
+File: picture/logobk.png Graphic file (type png)
+<use picture/logobk.png>
+Package pdftex.def Info: picture/logobk.png  used on input line 118.
+(pdftex.def)             Requested size: 24.74516pt x 24.75098pt.
+[9 <./picture/dl.jpg> <./picture/ilp.png (PNG copy)>]
+<picture/bfs_bdd_comp.jpg, id=193, 876.27374pt x 541.02126pt>
+File: picture/bfs_bdd_comp.jpg Graphic file (type jpg)
+<use picture/bfs_bdd_comp.jpg>
+Package pdftex.def Info: picture/bfs_bdd_comp.jpg  used on input line 123.
+(pdftex.def)             Requested size: 438.13579pt x 270.50996pt.
+
+
+File: picture/logobk.png Graphic file (type png)
+<use picture/logobk.png>
+Package pdftex.def Info: picture/logobk.png  used on input line 132.
+(pdftex.def)             Requested size: 24.74516pt x 24.75098pt.
+[10 <./picture/benchmark.png> <./picture/bfs_bdd_comp.jpg>]
+
+File: picture/logobk.png Graphic file (type png)
+<use picture/logobk.png>
+Package pdftex.def Info: picture/logobk.png  used on input line 154.
+(pdftex.def)             Requested size: 24.74516pt x 24.75098pt.
+[11])
 
 File: picture/logobk.png Graphic file (type png)
 <use picture/logobk.png>
 Package pdftex.def Info: picture/logobk.png  used on input line 143.
 (pdftex.def)             Requested size: 24.74516pt x 24.75098pt.
-[8] (main.bbl)
+[12] (main.bbl)
 
 File: picture/logobk.png Graphic file (type png)
 <use picture/logobk.png>
-Package pdftex.def Info: picture/logobk.png  used on input line 146.
+Package pdftex.def Info: picture/logobk.png  used on input line 147.
 (pdftex.def)             Requested size: 24.74516pt x 24.75098pt.
-[9
+[13
 
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20251202001306 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
+runsystem(latexminted cleantemp  --timestamp 20251203162618 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
 
  
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -1571,20 +1624,20 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C106E2FB60C4B86976D8CCB80DB72B45;2765.
+(rerunfilecheck)             Checksum: 6CCEDD510E974B0F71FC30DF922BE392;2959.
  ) 
 Here is how much of TeX's memory you used:
- 41497 strings out of 468130
- 846765 string characters out of 5440703
- 1752146 words of memory out of 5000000
- 69362 multiletter control sequences out of 15000+600000
+ 41583 strings out of 468130
+ 848417 string characters out of 5440703
+ 1752148 words of memory out of 5000000
+ 69425 multiletter control sequences out of 15000+600000
  659133 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,24n,117p,565b,1362s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,25n,117p,565b,1362s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi650\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnitt10.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnr7.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnr8.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on main.pdf (11 pages, 370884 bytes).
+Output written on main.pdf (15 pages, 811558 bytes).
 PDF statistics:
- 257 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 315 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
+ 170 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,6 +5,12 @@ The team proposes this Petri net as an example for our Python implementation:
     \includegraphics[scale = 0.8]{picture/initpetri.png}
     \caption{Example of Petri net}
 \end{figure}
+In addition, the libraries that are used in our source are:
+\begin{itemize}
+    \item \code{PyEDA} version 0.28.0 for Binary Decision Diagram task.
+    \item \code{NumPy} version 1.24.4 for vector and matrix calculation.
+    \item \code{.Petrinet} for handling Petri net from \code{.pnml} file.
+\end{itemize}
 \subsection{Task 1 - Reading Petri nets from PNML files}
 
 The Petri net class is defined in Python as follows:
@@ -66,16 +72,96 @@ The core logic involves constructing a global transition relation. For each tran
 to verify that input tokens exist and target output places are empty, strictly enforcing the 1-safe constraint. Simultaneously, 
 an \textbf{"effect"} formula defines the next state ($X_p$) by handling token consumption and production, using XNOR operations 
 to maintain the state of unaffected places. All valid transitions are combined into a single relation using the OR operator.
-
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.95]{picture/bddres.jpg}
+    \caption{BDD result}
+\end{figure}
 Finally, the algorithm employs \textbf{fixed-point iteration} to compute the full state space. It repeatedly applies the transition 
 relation, smoothes out current state variables, and renames next-state variables until the reachable set converges. The function returns 
 a BDD representing the set of all reachable markings. 
-
-\subsection{Performance Comparison}
-
 \subsection{Task 4 - Deadlock detection by using ILP and BDD}
-
+Task 4 is an algorithm to identify deadlocks — states where no transitions can fire — specifically within the context of the assignment.
+The detection logic operates through a simulation and symbolic verification process:
+\begin{itemize}
+    \item \textbf{Sequential Traversal \& Loop Detection:} The algorithm simulates firing sequences while maintaining a \texttt{seen} set. This allows for the early detection and termination of infinite loops, preventing non-terminating recursion.
+    \item \textbf{Validation:} When a state is reached where no transitions are enabled, the system cross-references this marking with the pre-computed Reachability BDD. A deadlock is confirmed only if the marking is a valid member of the reachable set.
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.9]{picture/dl.jpg}
+    \caption{Deadlock detection result with the team source code}
+\end{figure}
 \subsection{Task 5 - Optimization over reachable markings}
 
+Task 5 addresses the problem of optimizing a linear objective function by maximizing $c^T \cdot M$ over the set of reachable markings encoded 
+in Binary Decision Diagrams (BDD).
 
+The team implementation strategy focuses on handling symbolic data structures efficiently:
+\begin{itemize}
+    \item \textbf{Algorithm Logic:} The core function iterates through satisfying assignments derived from the BDD. It distinguishes between \textit{constrained variables} and \textit{free variables} (don't-care conditions), explicitly enumerating combinations of free variables to ensure the global maximum is found.
+    \item \textbf{Edge Case Management:} The system robustly handles empty BDDs and tautologies (using a greedy approach for the latter) to return optimal results instantly.
+\end{itemize}
+\vspace{-20pt}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.75]{picture/ilp.png}
+    \caption{Integer linear programming result}
+\end{figure}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 1]{picture/benchmark.png}
+    \caption{Task 5 different model testing result}
+\end{figure}
+\vspace{-40pt}
+\subsection{Performance Comparison}
+We observe a distinct performance trade-off governed by the size of the state space, based on the experimental results from Task 2 and Task 3. Specifically, BFS required approximately 
+0.0004s, whereas the BDD approach took 0.046s. This represents a speedup of roughly 99.1\% in favor of the explicit approach for this specific dataset.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.5]{picture/bfs_bdd_comp.jpg}
+    \caption{Comparing result of BFS and BDD}
+\end{figure}
+
+\vspace{-20pt}
+The primary cause for this discrepancy is the initialization overhead inherent to the Symbolic BDD engine (PyEDA). The process of setting up incurs a fixed cost. In small systems, this 
+overhead outweighs the actual computation time. However, regarding space complexity, the Explicit method stores states as raw vectors with 
+complexity $O(S \times P)$. In contrast, the BDD approach utilizes a directed acyclic graph (DAG) to compress the state space6. Therefore, while BFS is optimal for small 
+nets (< 100 states), the Symbolic method is theoretically superior for complex systems (> 1000 states) where the "state space explosion" problem renders explicit storage unfeasible.
+
+While the results are constant, execution time varies based on hardware specifications. CPU clock speed directly impacts \texttt{PyEDA} operations, and memory latency affects the 
+combinatorial enumeration in Task 5. Additionally, for micro-scale operations, minor OS scheduling "noise" can cause negligible relative fluctuations.
+\subsection{Challenges}
+\begin{itemize}
+    \item \textbf{Handling "Don't Care" Variables in Optimization (Task 5):}\code{PyEDA}'s function 
+        \texttt{satisfy\_all()} method does not always return a complete marking vector, but a partial assignment where irrelevant variables are treated as "don't care" or free variables.
+        Simply converting a partial assignment to a marking would lead to suboptimal results, as the objective function $c^T \cdot M$ might be maximized when these free variables are set to 1.
+    \item \textbf{Infinite Loops in Deadlock Detection (Task 4):} The deadlock detection algorithm initially faced issues with non-terminating recursion 
+    when the Petri net contained cycles (e.g., $P1 \to P2 \to P1$). Without a mechanism to track history, the sequential firing simulation would run 
+    indefinitely without returning a result.
+\end{itemize}
+\section{Conclusion}
+Through the completion of five distinct tasks by implementing a omprehensive toolset for analyzing Petri nets, the team has demonstrated
+the following key achievements:
+
+\begin{enumerate}[label = -]
+    \item We successfully implemented parsers for PNML files and handled matrix operations, ensuring that the system can 
+        process various Petri net structures, including those with edge cases like empty inputs or mismatched dimensions.
+    \item By implementing both Explicit (BFS/DFS) and Symbolic (BDD) reachability algorithms, we provided concrete evidence 
+        supporting the theoretical trade-offs between execution speed and memory scalability. While Explicit methods proved faster for small-scale 
+        nets, the BDD implementation laid the groundwork for handling complex state-space explosions in larger systems.
+    \item The successful deployment of Task 4 (Deadlock Detection) and Task 5 (Optimization) showcased the power of hybrid approaches. 
+        By combining sequential simulation with symbolic verification, we achieved a deadlock detection system that is both accurate and resistant to infinite loops. 
+\end{enumerate}
+
+In summary, this project reinforced our understanding of discrete event systems and formal verification but also highlighted the practical importance of choosing 
+the right data structures — Explicit vectors for speed in small systems versus Binary Decision Diagrams for scalability in complex environments. The developed Python application 
+stands as a functional prototype for analyzing the behavior, safety, and optimal configurations of concurrent systems modeled by Petri nets.
+
+\section*{Acknowledgement}
+We would like to express our sincere gratitude to our instructor, \textbf{Dr. Van-Giang Trinh}, for his dedicated guidance and for providing the fundamental knowledge 
+of Mathematical Modeling that made this project possible. His lectures and course materials were instrumental in helping us understand the complex concepts of Petri nets and Boolean algebra.
+
+We also wish to thank the Faculty of Computer Science and Engineering at Ho Chi Minh City University of Technology (HCMUT) for providing an excellent academic environment that encourages research 
+and practical application. And lastly, we appreciate the constructive feedback and support from our peers during the development of this project.
