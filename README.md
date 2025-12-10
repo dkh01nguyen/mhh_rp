@@ -39,7 +39,7 @@ py -3.11 -m venv venv
 venv\Scripts\Activate.ps1
 
 # Kích hoạt trên macOS/Linux
-source venv/bin/activate.ps1
+source venv/bin/activate
 ```
 
 **Lưu ý**: Sau khi kích hoạt, ta sẽ thấy `(venv)` xuất hiện trước dấu nhắc lệnh.
@@ -151,5 +151,6 @@ python -c "from src.Optimization import max_reachable_marking; print('✓ Optimi
 # Test tất cả modules
 python -c "from src.PetriNet import PetriNet; from src.BFS import bfs_reachable_traversal; from src.DFS import dfs_reachable_traversal; from src.BDD import bdd_reachable_counting; from src.Deadlock import deadlock_reachable_marking_detector; from src.Optimization import max_reachable_marking; print('✓ All modules imported successfully')"
 ```
+
 
 
