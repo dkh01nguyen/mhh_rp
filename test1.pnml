@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml>
+  <net id="net_compact" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <page id="page1">
+      <!-- === 5 PLACES DUY NHẤT === -->
+      <place id="p1">
+        <name><text>TASK1</text></name>
+        <initialMarking><text>1</text></initialMarking>
+      </place>
+      <place id="p2">
+        <name><text>TASK2</text></name>
+        <initialMarking><text>0</text></initialMarking>
+      </place>
+      <place id="p3">
+        <name><text>TASK3</text></name>
+        <initialMarking><text>0</text></initialMarking>
+      </place>
+      <place id="p4">
+        <name><text>TASK4</text></name>
+        <initialMarking><text>0</text></initialMarking>
+      </place>
+      <place id="p5">
+        <name><text>TASK5</text></name>
+        <initialMarking><text>0</text></initialMarking>
+      </place>
+
+      <!-- === TRANSITIONS === -->
+      <!-- T1: Đọc P1, sinh ra P2 và P3 (P1 vẫn giữ nguyên) -->
+      <transition id="t1"><name><text>Generate_2_3</text></name></transition>
+
+      <!-- T2: Cần P1, P2, P3. Sinh ra P4. (Tiêu thụ P2. Giữ nguyên P1, P3) -->
+      <transition id="t2"><name><text>Merge_to_4</text></name></transition>
+
+      <!-- T3: Cần P1, P3, P4. Sinh ra P5. (Tiêu thụ tất cả để kết thúc) -->
+      <transition id="t3"><name><text>Finish_at_5</text></name></transition>
+
+      <!-- === ARCS === -->
+
+      <!-- BƯỚC 1: T1 (Input: P1 -> Output: P1, P2, P3) -->
+      <arc id="a1" source="p1" target="t1"/>
+      <arc id="a2" source="t1" target="p1"/> <!-- Trả lại P1 (Loop) -->
+      <arc id="a3" source="t1" target="p2"/>
+      <arc id="a4" source="t1" target="p3"/>
+
+      <!-- BƯỚC 2: T2 (Input: P1, P2, P3 -> Output: P1, P3, P4) -->
+      <!-- Input -->
+      <arc id="a5" source="p1" target="t2"/>
+      <arc id="a6" source="p2" target="t2"/>
+      <arc id="a7" source="p3" target="t2"/>
+      <!-- Output -->
+      <arc id="a8" source="t2" target="p4"/> <!-- Sinh P4 -->
+      <arc id="a9" source="t2" target="p1"/> <!-- Trả lại P1 -->
+      <arc id="a10" source="t2" target="p3"/> <!-- Trả lại P3 -->
+      <!-- Lưu ý: P2 không được trả lại (đã bị tiêu thụ) -->
+
+      <!-- BƯỚC 3: T3 (Input: P1, P3, P4 -> Output: P5) -->
+      <arc id="a11" source="p1" target="t3"/>
+      <arc id="a12" source="p3" target="t3"/>
+      <arc id="a13" source="p4" target="t3"/>
+      <arc id="a14" source="t3" target="p5"/> <!-- Kết thúc -->
+
+    </page>
+  </net>
+</pnml>
