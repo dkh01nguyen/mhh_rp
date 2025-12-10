@@ -27,19 +27,19 @@ btl/
 └── __pycache__/           # Cache Python
 ```
  
-##Hướng dẫn cài đặt chi tiết
+### Hướng dẫn cài đặt chi tiết
 
 ### Bước 1: Tạo môi trường ảo (Virtual Environment)
 
 ```bash
-# Tạo virtual environment trong thư mục dự án
-python -m venv venv
+# Tạo virtual environment trong thư mục dự án (sử dụng Python 3.11)
+py -3.11 -m venv venv
 
 # Kích hoạt trên Windows
-venv\Scripts\activate
+venv\Scripts\Activate.ps1
 
 # Kích hoạt trên macOS/Linux
-source venv/bin/activate
+source venv/bin/activate.ps1
 ```
 
 **Lưu ý**: Sau khi kích hoạt, ta sẽ thấy `(venv)` xuất hiện trước dấu nhắc lệnh.
@@ -151,4 +151,5 @@ python -c "from src.Optimization import max_reachable_marking; print('✓ Optimi
 # Test tất cả modules
 python -c "from src.PetriNet import PetriNet; from src.BFS import bfs_reachable_traversal; from src.DFS import dfs_reachable_traversal; from src.BDD import bdd_reachable_counting; from src.Deadlock import deadlock_reachable_marking_detector; from src.Optimization import max_reachable_marking; print('✓ All modules imported successfully')"
 ```
+
 
