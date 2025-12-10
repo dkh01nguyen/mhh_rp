@@ -30,7 +30,7 @@ btl/
 ### Hướng dẫn cài đặt chi tiết
 
 ### Bước 1: Tạo môi trường ảo (Virtual Environment)
-
+**Lưu ý**: Sử dụng Python 3.11 để tạo môi trường ảo này
 ```bash
 # Tạo virtual environment trong thư mục dự án 
 python -m venv venv
@@ -151,6 +151,7 @@ python -c "from src.Optimization import max_reachable_marking; print('✓ Optimi
 # Test tất cả modules
 python -c "from src.PetriNet import PetriNet; from src.BFS import bfs_reachable_traversal; from src.DFS import dfs_reachable_traversal; from src.BDD import bdd_reachable_counting; from src.Deadlock import deadlock_reachable_marking_detector; from src.Optimization import max_reachable_marking; print('✓ All modules imported successfully')"
 ```
+
 
 
 
