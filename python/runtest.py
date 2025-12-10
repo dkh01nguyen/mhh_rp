@@ -86,7 +86,6 @@ def test_main():
     # ---------------------------------------------------------
     print("\n" + "="*40)
     print("[4] KIỂM TRA BDD REACHABILITY - ĐÁNH GIÁ HIỆU SUẤT")
-    print("DEBUG: Code moi da chay")
     # Bắt đầu theo dõi memory cho BDD
     tracemalloc.start()
     process = psutil.Process(os.getpid())
