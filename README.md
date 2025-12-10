@@ -32,8 +32,8 @@ btl/
 ### Bước 1: Tạo môi trường ảo (Virtual Environment)
 
 ```bash
-# Tạo virtual environment trong thư mục dự án (sử dụng Python 3.11)
-py -3.11 -m venv venv
+# Tạo virtual environment trong thư mục dự án 
+python -m venv venv
 
 # Kích hoạt trên Windows
 venv\Scripts\Activate.ps1
@@ -73,7 +73,7 @@ python -c "import src.PetriNet; print('All modules imported successfully')"
 
 ```bash
 # Đảm bảo đang ở thư mục gốc và venv đã kích hoạt
-venv\Scripts\activate
+venv\Scripts\Activate.ps1
 
 # Chạy chương trình
 python runtest.py
@@ -151,6 +151,7 @@ python -c "from src.Optimization import max_reachable_marking; print('✓ Optimi
 # Test tất cả modules
 python -c "from src.PetriNet import PetriNet; from src.BFS import bfs_reachable_traversal; from src.DFS import dfs_reachable_traversal; from src.BDD import bdd_reachable_counting; from src.Deadlock import deadlock_reachable_marking_detector; from src.Optimization import max_reachable_marking; print('✓ All modules imported successfully')"
 ```
+
 
 
 
