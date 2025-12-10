@@ -141,20 +141,3 @@ combinatorial enumeration in Task 5. Additionally, for micro-scale operations, m
     when the Petri net contained cycles (e.g., $P1 \to P2 \to P1$). Without a mechanism to track history, the sequential firing simulation would run 
     indefinitely without returning a result.
 \end{itemize}
-\section{Conclusion}
-Through the completion of five distinct tasks by implementing a omprehensive toolset for analyzing Petri nets, the team has demonstrated
-the following key achievements:
-
-\begin{enumerate}[label = -]
-    \item We successfully implemented parsers for PNML files and handled matrix operations, ensuring that the system can 
-        process various Petri net structures, including those with edge cases like empty inputs or mismatched dimensions.
-    \item By implementing both Explicit (BFS/DFS) and Symbolic (BDD) reachability algorithms, we provided concrete evidence 
-        supporting the theoretical trade-offs between execution speed and memory scalability. While Explicit methods proved faster for small-scale 
-        nets, the BDD implementation laid the groundwork for handling complex state-space explosions in larger systems.
-    \item The successful deployment of Task 4 (Deadlock Detection) and Task 5 (Optimization) showcased the power of hybrid approaches. 
-        By combining sequential simulation with symbolic verification, we achieved a deadlock detection system that is both accurate and resistant to infinite loops. 
-\end{enumerate}
-
-In summary, this project reinforced our understanding of discrete event systems and formal verification but also highlighted the practical importance of choosing 
-the right data structures — Explicit vectors for speed in small systems versus Binary Decision Diagrams for scalability in complex environments. The developed Python application 
-stands as a functional prototype for analyzing the behavior, safety, and optimal configurations of concurrent systems modeled by Petri nets.

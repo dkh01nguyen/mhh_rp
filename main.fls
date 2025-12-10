@@ -422,6 +422,9 @@ INPUT content\theory.aux
 INPUT .\content\implement.aux
 INPUT .\content\implement.aux
 INPUT content\implement.aux
+INPUT .\content\conclusion.aux
+INPUT .\content\conclusion.aux
+INPUT content\conclusion.aux
 OUTPUT main.aux
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
 INPUT C:\Users\User\AppData\Roaming\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
@@ -627,6 +630,12 @@ INPUT .\picture\bfs_bdd_comp.jpg
 INPUT .\picture\bfs_bdd_comp.jpg
 INPUT .\picture\logobk.png
 INPUT .\picture\logobk.png
+INPUT .\content\conclusion.tex
+INPUT .\content\conclusion.tex
+OUTPUT content\conclusion.aux
+INPUT .\content\conclusion.tex
+INPUT .\content\conclusion.tex
+INPUT content\conclusion.tex
 INPUT .\picture\logobk.png
 INPUT .\main.bbl
 INPUT .\main.bbl
@@ -645,6 +654,9 @@ INPUT content\theory.aux
 INPUT .\content\implement.aux
 INPUT .\content\implement.aux
 INPUT content\implement.aux
+INPUT .\content\conclusion.aux
+INPUT .\content\conclusion.aux
+INPUT content\conclusion.aux
 INPUT .\main.out
 INPUT .\main.out
 INPUT C:\Users\User\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi650\tcrm1200.pk
